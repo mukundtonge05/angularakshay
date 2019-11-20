@@ -1,0 +1,19 @@
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>RollNo</th>
+        <th>Name</th>
+        <th>Mark</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = 'let student of students'>
+        <td>{{student.roll_no}}</td>
+        <td>{{student.name}}</td>
+        <td>{{student.mark}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
